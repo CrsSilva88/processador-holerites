@@ -2,7 +2,7 @@
 
 Aplicativo em Python com interface gráfica para automatizar o processamento e renomeação de holerites e informes de rendimentos em PDF, com suporte a extração de texto via OCR (Tesseract), leitura de planilhas Excel e relatórios detalhados. Ideal para processar grandes volumes de arquivos de forma rápida, segura e precisa.
 
-## 🎯 Motivação
+##  Motivação
 
 Na empresa onde atuo, enfrentávamos um problema recorrente: o recebimento de centenas de holerites em PDF a cada fechamento de mês, retirados do sistema de fechamneto de folha, que precisavam ser renomeados manualmente com base em códigos de cada funcionario de um outro sistema de gestão. Esse processo era repetitivo, sujeito a erros e tomava tempo da equipe.
 
@@ -83,6 +83,6 @@ python app.py
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob os termos da [MIT License](LICENSE).
