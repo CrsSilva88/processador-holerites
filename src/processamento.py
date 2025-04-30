@@ -29,7 +29,7 @@ def processar_pdfs(pasta_pdfs, arquivo_excel, pasta_destino, ano, mes, atualizar
             cpf_limpo = re.sub(r"\D", "", cpf_extraido)
 
             for codigo in df_planilha["CODIGO"]:
-                if cpf_limpo in codigo:
+                if cpf_limpo in str(codigo):
                     prefixo_ano_mes = f"{ano}{mes:02d}"
                     codigo_sem_prefixo = codigo[6:]  # Remove os 6 primeiros caracteres
                     novo_nome = f"{prefixo_ano_mes}{codigo_sem_prefixo}.pdf"

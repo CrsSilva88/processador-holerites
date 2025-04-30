@@ -20,7 +20,7 @@ def processar_pdfs_informe(pasta_pdfs, arquivo_excel, pasta_destino, atualizar_b
 
     codigos_dict = {}
     for codigo in df_planilha["CODIGO"]:
-        cpf_somente_numeros = re.sub(r"\D", "", codigo)
+        cpf_somente_numeros = re.sub(r"\D", "", str(codigo))
         if len(cpf_somente_numeros) >= 11:
             cpf_chave = cpf_somente_numeros[-11:]
             codigos_dict[cpf_chave] = codigo
